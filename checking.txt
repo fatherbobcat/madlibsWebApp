@@ -1,0 +1,68 @@
+
+For this assignment I did a library catalogue of songs. Each song has song name, artist name, 
+album name, year of the song/ album, genre of the song and rating (how good you think the song 
+is).  
+
+1) What I checked in User Input:
+
+For these attributes of the song, genre of the song and rating of the song is inputted by a 
+scroll down selection item, so I do not need to check for user input for these (since it 
+does not allow text entering). If the user does not select an item it will be automatically
+set to a genre of Soul and a rating of 1. 
+
+For Song Name, Artist name and Album Name I stripped any possible tags first so that if the
+user enters some harmful code, it will be caught. Next I only allowed the users to enter
+numbers and capitalized/un-capitalized letters, the ' character (ie Nobody's Home) and 
+spaces. Each entry must have at least have one capitalized term, such as "21 Guns" is okay 
+because Guns is a capitalized term and 21 is a number and the space in between is allowed. 
+"2123" would not be okay because it is only numbers with no capital letters. " " is not 
+allowed because there are no capital letters."#@#@" is not allowed because it is not a 
+capital/non-capital letter, number or space.
+
+I think this accounts for most, if not all, types of Album names, Song names and Artist
+names.
+
+For Year I checked that it started with either a '1' or a '2' and had 4 numbers, because
+I don't think anyone would know any songs that were made before the year 1000. 
+
+I checked these for when the user wants to add songs and/or search for songs. Although
+you can not enter anything for a field when you search for songs. 
+
+For adding songs, I also checked that the song entered was not a duplicate of something
+already in the database. I checked that the combination of song name, song artist 
+(controlling for a different song of the same name but by different artist), song album
+(controlling for a remake of the song), song year (controlling for a remake of the song)
+and song genre were different. (I did not check for rating, because I assume that
+if the names, genres, artists, year and albums were the same, it is the same song (also
+sometimes people can forget what rating they gave a song). 
+
+2) Input to put in my form
+
+If you enter:
+"Avril" in artist name
+"Let Go" in album name
+"Rock" in year of song
+and "Rock" in genre, 
+
+it should return two entries, one Sk8ter Boi by Avril and one Complicated by Avril. 
+
+This excludes the categories Song Name, Song Year and Rating
+
+---------------------------
+Design Choices:
+
+For this assignment my theme was a retro 1960s kind of theme. I chose my color palette to be
+pink and white to give it a kind of elegant, warm feeling. This combined with my pictures
+and background gives it a kind of retro feel. I chose this theme because I feel that when
+I listen to songs, I get a nice, happy, fuzzy feeling. The retro air adds more flair to the
+overall website. 
+
+I also touched up some of the fine details of the site to conform to my theme. Such as the
+background color of my forms, the alternating color scheme of my song library and the
+color of my links (it also changes when you hover over it). 
+
+A typical person who would go to this site would be Angelina, age 18, who has listened 
+to a lot of songs in the past and wants to stop forgetting her old favorites. She would
+go to the site to add songs to the music database and search for songs later on. She 
+would talk about this site to her friends and family. 
+

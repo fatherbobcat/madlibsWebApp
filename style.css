@@ -1,0 +1,69 @@
+body{background-image:url('music.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: "Tahoma", Arial, sans-serif;
+padding-left:3cm;
+padding-right:3cm;
+padding-bottom:3cm;
+min-width:1000px;
+max-width:2000px;}
+
+div{float:right;
+width:70%;}
+
+div#body{text-align:left;
+border: 2px solid;
+border-radius:2em;
+width:90%;
+background-color: #FFFFFF;
+padding-left:1cm;
+padding-right:1cm;
+padding-top:0.5cm;
+padding-bottom:1.5cm;
+margin-bottom:1cm;}
+
+div#pic{text-align:center;
+width:30%;
+float:right;
+margin-top:0.5cm;
+margin-bottom:0.5cm;}
+
+h1{text-align:center;
+border: 2px solid;
+border-radius:2em;
+background-color: #EBB3A2;
+font-family: "Tekton Pro Ext", Tahoma, sans-serif;}
+
+h4{text-align:center;}
+h4 a:link{color:#F5043E;}
+h4 a:visited{color:#F5043E;}
+h4 a:hover{color:#E78091;}
+
+form{background-color:#FFE7E0;}
+
+p.results{background-color:#FFE7E0;}
+
+img{border: 5px solid;
+border-radius:2em;
+border-color: #E78091;}
+
+span.heading{text-align:center;
+padding-left:0.5cm;
+padding-right:0.5cm;
+border: 2px solid;
+border-radius:2em;
+background-color: #F5D7C2;
+font-family: "Tekton Pro Ext", Tahoma, sans-serif;}
+
+span.error{color:#FF0000;}
+
+span.example{text-decoration:underline;}
+
+li{font-family:"Comic Sans MS", Comic Sans MS5, cursive;}
+
+li.first{background-color:#FFE7E0;}
+
+li.second{background-color:#F5D7C2;}
+
+
+
